@@ -365,7 +365,3 @@ INSERT INTO "versek" ("m_index", "incipit") VALUES ('385', '');
 INSERT INTO "versek" ("m_index", "incipit") VALUES ('386', '');
 INSERT INTO "versek" ("m_index", "incipit") VALUES ('387', '');
 INSERT INTO "versek" ("m_index", "incipit") VALUES ('388', '');
-
--- Indexes
-
-CREATE UNIQUE INDEX versek_pkey ON versek USING btree (m_index);

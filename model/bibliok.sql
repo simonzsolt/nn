@@ -118,7 +118,3 @@ INSERT INTO "bibliok" ("b_index", "biblio", "tipus") VALUES ('206', 'Lecompte, I
 INSERT INTO "bibliok" ("b_index", "biblio", "tipus") VALUES ('207', 'Paris, Gaston - Pannier, L\1\1opold: La vie de saint Alexis. Textes des XIe, XIIe, XIIIe, et XIVe si\1\1cles, Paris, 1972.', 'Sz\1\1vegkiad\1\1sok');
 INSERT INTO "bibliok" ("b_index", "biblio", "tipus") VALUES ('208', '\1\1milie Goudot: Gilles le Muisit: Registre. \1\1dition des neuf premiers chapitres du texte, d\1\1\1apr\1\1s le manuscrit Br IV 119 de la Biblioth\1\1que Royale de Bruxelles', 'Sz\1\1vegkiad\1\1sok');
 INSERT INTO "bibliok" ("b_index", "biblio", "tipus") VALUES ('209', 'Kastner, L. E.: Le Songe. Poeme all\1\1gorique et religieux du XIIIe siecle', 'Sz\1\1vegkiad\1\1sok');
-
--- Indexes
-
-CREATE UNIQUE INDEX bibliok_pkey ON bibliok USING btree (b_index);

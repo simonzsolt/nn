@@ -4773,7 +4773,3 @@ INSERT INTO "datalasok" ("d_index", "d_sorszam", "d_elso", "d_masodik", "d_tipus
 INSERT INTO "datalasok" ("d_index", "d_sorszam", "d_elso", "d_masodik", "d_tipus", "v_index") VALUES ('4757', '1', '', '', '--', '490');
 INSERT INTO "datalasok" ("d_index", "d_sorszam", "d_elso", "d_masodik", "d_tipus", "v_index") VALUES ('4761', '5', '', '', '--', '490');
 INSERT INTO "datalasok" ("d_index", "d_sorszam", "d_elso", "d_masodik", "d_tipus", "v_index") VALUES ('181', '1', '', '', '--', '21');
-
--- Indexes
-
-CREATE UNIQUE INDEX datalasok_pkey ON datalasok USING btree (d_index);

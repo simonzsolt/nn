@@ -57,7 +57,3 @@ INSERT INTO "kapcsolatok" ("k_index", "m_index", "egyeb", "tipus", "v_index") VA
 INSERT INTO "kapcsolatok" ("k_index", "m_index", "egyeb", "tipus", "v_index") VALUES ('66', '171', '', 'sujet identique', '479');
 INSERT INTO "kapcsolatok" ("k_index", "m_index", "egyeb", "tipus", "v_index") VALUES ('67', '-1', 'Gilote et Johane (texte \1\1dit\1\1 par Jubinal dant Nouv. rec. II, 28-39.)', 'sujet identique', '486');
 INSERT INTO "kapcsolatok" ("k_index", "m_index", "egyeb", "tipus", "v_index") VALUES ('56', '-1', 'Des proverbes latins sont glos\1\1s par des s\1\1quences de strophes en fran\1\1ais', 'proverbes glos\1\1s', '245');
-
--- Indexes
-
-CREATE UNIQUE INDEX kapcsolatok_pkey ON kapcsolatok USING btree (k_index);

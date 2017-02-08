@@ -101,7 +101,3 @@ INSERT INTO "edition" ("e_index", "edition") VALUES ('100', 'Gautier de Coinci: 
 INSERT INTO "edition" ("e_index", "edition") VALUES ('101', 'Meyer, Paul: \1\1 Pri\1\1res et po\1\1sies religieuses tir\1\1es d''un manuscrit lorrain ( Arsenal 570) \1\1, Bulletin de la Soci\1\1t\1\1 des anciens textes fran\1\1ais, 27, 1901, pp. 43-80.');
 INSERT INTO "edition" ("e_index", "edition") VALUES ('102', 'L\1\1ngfors, Arthur: \1\1\1\1Notice et extraits du manuscrit Additional 44949 du Mus\1\1e Britannique\1\1\1\1, Neuphilologische Mitteilungen, 49 (1948), pp. 97-123.');
 INSERT INTO "edition" ("e_index", "edition") VALUES ('103', 'R\1\1zeau, Pierre: Les pri\1\1res aux saints en fran\1\1ais \1\1 la fin du moyen \1\1ge, Gen\1\1ve, Droz, 1982.');
-
--- Indexes
-
-CREATE UNIQUE INDEX edition_pkey ON edition USING btree (e_index);

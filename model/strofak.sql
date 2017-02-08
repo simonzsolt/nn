@@ -299,7 +299,3 @@ INSERT INTO "strofak" ("s_index", "s_szam", "s_ertek", "v_index", "c_szandekos")
 INSERT INTO "strofak" ("s_index", "s_szam", "s_ertek", "v_index", "c_szandekos") VALUES ('52', '26', '12aaa', '62', ' ');
 INSERT INTO "strofak" ("s_index", "s_szam", "s_ertek", "v_index", "c_szandekos") VALUES ('319', '14', 'ababababab', '477', ' ');
 INSERT INTO "strofak" ("s_index", "s_szam", "s_ertek", "v_index", "c_szandekos") VALUES ('320', '1', '12aaaaaa', '483', ' ');
-
--- Indexes
-
-CREATE UNIQUE INDEX strofak_pkey ON strofak USING btree (s_index);
