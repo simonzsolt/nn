@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Hoszt: localhost
--- Létrehozás ideje: 2017. Feb 08. 02:18
+-- Létrehozás ideje: 2017. Feb 08. 17:18
 -- Szerver verzió: 5.7.17
 -- PHP verzió: 5.6.29-0+deb8u1
 
@@ -39773,10 +39773,10 @@ INSERT INTO `edition` (`e_index`, `edition`) VALUES
 
 CREATE TABLE IF NOT EXISTS `kapcsolatok` (
   `k_index` int(11) DEFAULT NULL,
-  `m_index` bigint(20) DEFAULT NULL,
+  `m_index` int(11) DEFAULT NULL,
   `egyeb` text,
   `tipus` text,
-  `v_index` bigint(20) DEFAULT NULL
+  `v_index` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -42765,6 +42765,22 @@ INSERT INTO `verselesek` (`ve_index`, `strofaszam`, `absztrakcio`, `incipit`, `v
 (8, '1-9', '12aabbccdd', 'Tres debonnaire dame,\n                                                                                                                                eurouse pecheresse', 418),
 (9, '10', '12aaaaaaaaaaaa', 'Fay moy lui desirier,\n                                                                                                                           lui servir,\n                                                                                                                           lui amer', 418),
 (10, '1,\n                                                                                            3,\n                                                                                            5,\n                                                                                            7,\n                                                                                            9,\n                                                                                            11,\n                                                                                            13,\n                                                                                            15', '13aaaa', 'Vulneratur caritas', 157);
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `valtozatok`
+--
+ALTER TABLE `valtozatok`
+ ADD KEY `m_index` (`m_index`);
+
+--
+-- Indexes for table `versek`
+--
+ALTER TABLE `versek`
+ ADD KEY `m_index` (`m_index`);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

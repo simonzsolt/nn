@@ -1,0 +1,38 @@
+d_index
+	- occurance:
+		- datalasok
+		- dialecte
+	- matches:
+		- none
+
+
+m_index
+	- occurance:
+		- kapcsolatok
+		- változatok
+		- versek
+	- matches:
+		- valtozatok -- versek
+
+v_index
+	- occurance:
+		- kapcsoaltok
+		- datalasok
+		- strofak
+		- valtozatok
+		- verselesek
+	- matches:
+		- valtozatok -- verselesek
+		- valtozatok -- kapcsolatok
+		- valtozatok -- datalasok
+		- valtozatok -- strofak
+
+b_index
+	- occurance:
+		- biblio
+	- matches:
+		- none
+
+------------------------------------------------------
+
+Tables unavailable:  t_jiaozhu, outils1
